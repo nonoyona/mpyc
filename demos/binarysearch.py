@@ -7,7 +7,7 @@ async def binary_search(sorted_list, element, secint):
     """
         Computes secret binary search on a secret list (seclist) sorted_list without letting
         any party obtain any information about the content of the list or the result.
-        The result respectevely is a secret int containing either the index in which the searched element is located.
+        The result respectively is a secret int containing either the index in which the searched element is located.
         Or a secint containing -1 if the element could not be found.
         If the searched value is present multiple times in the list, which element index will be printed is undefined.
         As of binary search sorted_list is required to be a sorted seclist containing elements of type secint.
