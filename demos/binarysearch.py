@@ -30,7 +30,7 @@ async def binary_search(sorted_list, element, secint):
 async def binary_search_unsec(sortedList, element, secint):
     """
         Computes secret binary search on a normal list sorted_list containing secints.
-        This fuction exposes some information about the list, since the indices on which the list is accessed are not secret and thus one could obtain which elements are smaller and larger to the searched element.
+        This function exposes some information about the list, since the indices on which the list is accessed are not secret and thus one could obtain which elements are smaller and larger to the searched element.
         Because required secrecy is missing anyways, the result respectevely is a normal int containing either the index in which the searched element is located.
         Or a -1 if the element could not be found.
         If the searched value is present multiple times in the list, which element index will be printed is undefined.
